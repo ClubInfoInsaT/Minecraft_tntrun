@@ -1,0 +1,20 @@
+name: tntrun
+version: '1.0-SNAPSHOT'
+main: fr.clubinfo.tntrun.Main
+api-version: '1.21'
+commands:
+  list:
+    description: List all players in the game
+    usage: /<command>
+  start:
+    description: Start the game
+    usage: /<command>
+  stop:
+    description: Stop the game
+    usage: /<command>
+  reset:
+    description: Reset the game
+    usage: /<command>
+  spec:
+    description: Spectate the game
+    usage: /<command>
